@@ -4,22 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="shortcut icon" href="/assets/logo/my-letter-favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <title>Document</title>
+    <title>Sazzad Ali | Web Developer, Programmer, UI/UX Designer, AI Enthusiast</title>
 
 </head>
 <body>
     <div id="main">
-        <div id="hero">
-            <div class="hero-img">
-                <img width="100%" height="auto" src="/assets/images/hero-image.png" alt="">
+        <div class="page">
+            <div class="nav">
+                <a href="/">
+                    <img width="100px" src="/assets/images/nav-myname-logo.png" alt="nav-myname-logo" style="scroll-behavior: smooth; ">
+                </a> 
+                <div class="center-nav">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="/portfolio.html">Portfolio</a></li>
+                        <li><a href="/">Services</a></li>
+                        <li><a href="/">Contact</a></li>
+                    </ul>
+                </div>
+                <button onclick="location.href='#'">My CV</button>
+            </div>
+            <h1 class="animated-name-header">
+                <marquee behavior="sliding" scrollamount="28" loop="-1" direction="left"> SAZZAD ALI </marquee>
+            </h1>
+            <img class="hero-img" src="/assets/images/hero-image.png" alt="hero-image-no-bg">
+        </div>
+        <div id="about"></div>
+        <div class="page1">
+            <div class="hero-text">
+                <h5>I'am</h5>
+                <h1>Crafting Digital Experiences, <span style="color: rgb(93, 93, 93);">One Line of Code at a Time.</span>
+                </h1>
+                <h4>Hey there! I'm Sazzad Ali, <br> your <span id="typewriting-effect"></span> 
+                <br>Let's build something extraordinary together. Explore my work, and let's bring your digital vision to life. </span> </h4>
+                <div class="buttons">
+                    <button id="btn1" onclick="location.href='mailto:contactme@alisazzad.com'">
+                        Let's Talk &nbsp; <i class="ri-mail-send-line"></i>
+                    </button>
+                    <button id="btn2" onclick="location.href='portfolio.html'">
+                        Portfolio ↗
+                    </button>
+                </div>
+            </div>
+            <div class="about-img">
+                <img src="/assets/images/my-IKIGAI.png" alt="">
+                <div class="inside-circle-text">
+                    <h3>Web Developer</h3>
+                    <h3>UI Designer</h3>
+                    <h3>Software Engineer</h3>
+                </div>
             </div>
         </div>
-        <div id="page1"></div>
+        <div class="page2">
+
+        </div>
     </div>
 
 
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/assets/js/script.js"></script>
 </body>
 </html>
