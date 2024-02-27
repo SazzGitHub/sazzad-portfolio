@@ -2,6 +2,7 @@
 
 var tl = gsap.timeline()
 var tl1 = gsap.timeline()
+var animateName = gsap.timeline()
 
 tl.from(".page1 .about-img img", {
     rotate:360,
@@ -24,9 +25,11 @@ tl1.to(".h1-portfolio", {
     repeat:-1,
     duration:25,
 })
-// tl.to(".page > .animated-name-header", {
-//     y:50,
-//     duration:1.5,
+
+// animateName.from(".page > .animated-name-header", {
+//     x:1000,
+//     duration:3.5,
+//     delay:0.5,
 // })
 
 
@@ -40,15 +43,15 @@ var Typewriter = new Typewriter(typingEffect, {
 });
 
 Typewriter
-    .pauseFor(100)
-    .typeString('<strong><span style="color: #FF9900; font-size: 28px;">Web Developer</span></strong>')
-    .pauseFor(200)
+    .pauseFor(90)
+    .typeString('<strong><span style="color: #FF9900; font-size: 28px;"> a Web Developer.</span></strong>')
+    .pauseFor(400)
+    .deleteChars(16)
+    .typeString('<strong><span style="color: #FF9900; font-size: 28px;">a Programmer.</span></strong>')
+    .pauseFor(400)
     .deleteChars(13)
-    .typeString('<strong><span style="color: #FF9900; font-size: 28px;">Programmer</span></strong>')
-    .pauseFor(200)
-    .deleteChars(10)
-    .typeString('<strong><span style="color: #FF9900; font-size: 28px;">UI Designer</span></strong>')
-    .pauseFor(200)
+    .typeString('<strong><span style="color: #FF9900; font-size: 28px;">a UI Designer.</span></strong>')
+    .pauseFor(400)
     .start();
 
 

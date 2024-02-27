@@ -8,7 +8,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: #0e0029;
 }
 
 #main {
@@ -72,25 +72,25 @@ html, body {
 .page > .animated-name-header {
     color: white;
     position: absolute;
-    top: 50%;
+    top: 60%;
     width: 100%;
-    font-size: 280px;
+    font-size: 180px;
     display:inline-block;
     -webkit-transform:scale(2,1); /* Safari and Chrome */
     -moz-transform:scale(2,1); /* Firefox */
     -ms-transform:scale(2,1); /* IE 9 */
     -o-transform:scale(2,1); /* Opera */
-    transform:scale(1.5,1.5); /* W3C */
+    transform:scale(1.9,1.9); /* W3C */
 }
 
 .page > img {
     position: absolute;
-    top: 15%;
-    left: 35%;
+    top: 10%;
+    left: 30%;
     /* transform: translateX(50%); */
     width: 100%;
-    max-width: 650px;
-    height: 100%;
+    max-width: 800px;
+    height: 90%;
     scale: 1;
     z-index: 1;
 }
@@ -101,7 +101,7 @@ html, body {
     left: 5%;
     height: 75%;
     width: 45%;
-    padding: 40px;
+    padding: 0 40px;
     scale: 1.1;
     /* background-color: #f2f2f2; */
 }
@@ -215,9 +215,17 @@ html, body {
     color: white;
 }
 
+.page2 {
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
 
-/* On screens (my-small-lappy that are 992px or less, set the background color to blue */
+
+
+
+/* On screens (small-lappy that is 992px or less, set the background color to blue */
 @media screen and (max-width: 1268px) {
     
 /* hero image */
